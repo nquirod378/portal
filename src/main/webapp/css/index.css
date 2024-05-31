@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Ottoman+Siyaq&display=swap');
+ 
+/*Estilo para todo el html*/
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ 
+body{
+	margin:0;	
+}
+ 
+ 
+/*cuerpo de la pagina*/
+.total {
+    display: grid;
+    grid-template-columns: 21% 16% 16% 16% 16% 15%;
+    grid-template-rows: 60px 900px 40px;
+    height: 100%;
+}
+ 
+ 
+/* cabecera muestra contenido en flex row y reparte espacio entre elementos*/
+header{
+    grid-column: 1/7;
+    grid-row: 1/1;
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #DAC4DB;
+    color: #DAC4DB;
+}
+ 
+ 
+/* elemeentos de la cabecera muestran su contenido en flex row y alinea al centro*/
+header > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ 
+/*Colores de fondo segun centro /empresa */
+.accenture{
+	border: 1px solid #DAC4DB;
+    background-color:#70397F;
+    color: #DAC4DB;
+}
+.salesianas{
+	border: 1px solid #A9D39E;
+    background-color:#02B126;
+    color: #A9D39E ;
+}
+.sotero{
+	border: 1px solid #ADD8E6;
+    background-color:#1630BE;
+    color: #ADD8E6;
+}
+.alixar{
+	border: 1px solid #BDECB6;
+    background-color:#008000;
+    color:#BDECB6 ;
+}
+.machado{
+	border: 1px solid #f0be77;
+    background-color: #CB5C0C ;
+    color: #f0be77;
+}
+ 
+ 
+/*sidebar */
+.sidebar-accenture{
+	border: 1px solid #DAC4DB;
+    background-color:#DAC4DB;
+}
+.sidebar-salesianas{
+	border: 1px solid #A9D39E;
+    background-color:#A9D39E;
+}
+.sidebar-sotero{
+	border: 1px solid #ADD8E6;
+    background-color:#ADD8E6;
+}
+.sidebar-alixar{
+	border: 1px solid #BDECB6;
+    background-color:#BDECB6;
+}
+.sidebar-machado{
+	border: 1px solid #f0be77;
+    background-color: #f0be77 ;
+}
+ 
+ 
+ 
+ 
+ 
+/*Tamaño de letra*/
+.cabecera{
+    font-size: 20px;
+}
+ 
+ 
+/* Estilo para enlaces*/
+a:link{color: #434B4D;
+    text-decoration: none;
+}
+ 
+a:visited{color:#434B4D;
+    text-decoration: none;
+}
+ 
+ 
+/*Menu lateral con elementos mostrados en flex columns*/      
+sidebar {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color:#DAC4DB;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+    max-width: fit-content;
+}
+ 
+ 
+/* Elementos del sidebar*/
+sidebar > div{
+    font-size: 1.2rem;
+    color:#434B4D;
+    height: 5%;
+    width: 100%;
+    padding-right: 8px;
+    border-bottom: 1px solid #434B4D;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/*animacion del sidebar*/
+sidebar div:hover{
+    background-color:lightgray;
+}
+ 
+ 
+/* parte principal*/
+main{
+    grid-column: 2/7;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-content: center;
+    margin:  0px auto;
+    height: 1000px;
+    width: 100%;
+}
+ 
+ 
+/* pie de pagina ocupa 100% del contenedor principal*/
+footer {
+    grid-column: 1/7;
+    grid-row: 3/4;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    z-index: 10;
+    clear:both;
+}
+ 
+/* padding para iconos*/
+i{
+    padding: 7px;
+}
+ 
+.cuadrado-icon {
+	padding-top: 5px;
+}
+ 
+.casa-icon {
+	padding-top: 3px;
+}

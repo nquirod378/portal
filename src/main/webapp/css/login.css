@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Ottoman+Siyaq&display=swap');
+ 
+/*Estilo para todo el html*/
+* {
+    /*Tipografía*/
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    /*Miscelanea*/
+    box-sizing: border-box;
+}
+ 
+/*Estilo, display y declaración del tamaño del body*/
+body {
+    /*Display*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;	
+    /*Modelo de cajas*/
+    width: 100%;
+    min-height: 100vh;
+    background-color: #DAC4DB;
+}
+ 
+#Columna{
+	align-self: stretch;
+    height: 100vh;
+	border: 5px solid #f6f6f6;
+	margin: 5px;
+}
+ 
+/*Estilo y colocación del elemento form con ID login*/
+#login {
+    /*Display*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    /*Modelo de cajas*/
+    width: 300px;
+    height: 275px;
+    margin-top: 80px;
+    padding: 10px;
+    border: 2px solid #28002f0f;
+    background-color: #28002f20;
+}
+ 
+/*Colocación de los elementos de tipo label en dicho formulario*/
+#login label {
+    /*Display*/
+    align-self: start;
+    /*Tipografía*/
+    font-weight: bold;
+}
+ 
+/*Tamaño y margénes de los elementos de tipo input*/
+#login input {
+    /*Modelo de cajas*/
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+}
+ 
+/*Botón de tipo Submit*/
+#submitLog {
+    /*Display*/
+    flex-wrap: wrap;
+    justify-content: center;
+    /*Modelo de cajas*/
+    width: 45%;
+    height: 15%;
+    margin-top: 10px;
+    border: 2px solid#70397F;
+    background-color: #70397F;
+    /*Tipografía*/
+    color: #DAC4DB;
+    /*Miscelanea*/
+    box-shadow: none;
+}
+ 
+/*Enlace de registro*/
+#AccesoReg {
+    /*Modelo de cajas*/
+    margin-top: 30px;
+    /*Tipografía*/
+    font-size: 70%;
+    text-align: center;
+}
+ 
+ 
+#robotImg{
+    width: 300px;
+    height: 300px;
+}

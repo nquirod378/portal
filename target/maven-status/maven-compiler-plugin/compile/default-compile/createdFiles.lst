@@ -1,0 +1,9 @@
+com\portal\catalogo\Usuario.class
+com\portal\servlets\CentroServlet.class
+com\portal\servlets\CursoServlet.class
+com\portal\conector\Conector.class
+com\portal\catalogo\Centro.class
+com\portal\constants\Constants.class
+com\portal\catalogo\Curso.class
+com\portal\servlets\RegistroServlets.class
+com\portal\servlets\LoginServlets.class

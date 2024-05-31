@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Ottoman+Siyaq&display=swap');
+ 
+/*Estilo para todo el html*/
+* {
+    /*Tipografía*/
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    /*Miscelanea*/
+    box-sizing: border-box;
+}
+ 
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DAC4DB;
+}
+ 
+#frm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    min-width: 300px;
+    border: 2px solid #28002f0f;
+    background-color: #28002f20;
+}
+ 
+#frm label{
+    /*Tipografía*/
+    font-weight: bold;
+    margin-top: 20px;
+}
+ 
+#frm label b{
+    color: #D71515;
+    font-weight: bolder;
+}
+ 
+#frm input, #frm select{
+    width: 60%;
+}
+ 
+#boton{
+    /*Display*/
+    align-self: center;
+    /*Modelo de cajas*/
+    width: 45%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid#70397F;
+    background-color: #70397F;
+    /*Tipografía*/
+    color: #DAC4DB;
+    /*Miscelanea*/
+    box-shadow: none;
+}
